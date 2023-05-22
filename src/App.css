@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+.header-first, .footer{
+  background-color: #252B42;
+}
+.free{
+  background:  #E74040 !important;
+}
+.ret{
+  border-radius: 50% !important;
+}
+
+@media only screen and (max-width: 393px){
+  .inputfin{
+width: 300px !important;
+  }
+}
+
+.inputfin{
+  
+  width: 50%;
+  min-width: 300px;
+  display: flex;
+  flex-wrap: wrap !important;
+  gap: 1rem;
+  }
+
