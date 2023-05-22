@@ -1,4 +1,4 @@
-
+import { BsFillMenuButtonWideFill } from "react-icons/bs";
 import  {  Nav, Navbar}from 'react-bootstrap';
 
 
@@ -14,7 +14,7 @@ export const NaVbar = () =>{
             <span className='text-white fw-bolder fs-3'> BrandName</span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
-            <span className="navbar-toggler-icon"></span>
+            <span className=" text-white"> <BsFillMenuButtonWideFill/></span>
           </Navbar.Toggle> 
           <Navbar.Collapse id="basic-navbar-nav">
              <Nav className=" d-flex justify-content-around align-items-center mx-auto w-50">

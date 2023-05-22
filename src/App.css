@@ -60,4 +60,8 @@ width: 300px !important;
   flex-wrap: wrap !important;
   gap: 1rem;
   }
-
+  nav.navbar .navbar-toggler:active,
+  nav.navbar .navbar-toggler:focus {
+    outline: none;
+      box-shadow: none;
+  }
